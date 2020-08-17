@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+
+            
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: cyan;
+                overflow: hidden;
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                padding: 14px;
+                color:cornflowerblue ;
+            }
+
+            li a:hover:not(.active) {
+                background-color: black;
+            }
+
+            .active {
+                background-color: blue;
+            }
+
+            body {
+                background-color: black;
+            }
+
+            #body {
+                background-image: url(images/steamwall1.png) ;
+                background-attachment: fixed;
+            }
+
+            #home {
+                
+                padding: 200px;
+                text-align: center;
+
+            }
+
+            p.name {
+                font-size: xx-large;
+                font-weight: bold;
+                color: white;
+            }
+
+            p.occup {
+                color: aqua;
+            }
+
+            #about {
+                padding: 50px;
+            }
+            #aboutme {
+                color: gray;
+            }
+
+            #whoami {                
+                color: lightblue;
+            }
+            #description {
+                font-size: x-large;
+                text-align: center;
+                color: hotpink;
+            }
+            #profilepic {
+                text-align: center;
+                border-style: solid;
+                border-radius: 300px;
+                border-color: lightblue;
+            }
+
+            #projects {
+                padding: 400px;
+                font-size: large;
+                color: cornflowerblue;
+            }
+
+            #skills {
+                padding: 100px;
+            }
+
+            p.skills {
+                color: cornflowerblue;
+                font-size: x-large;
+            }
+
+            .fa, .fa-twitter-square, .fa-github-square, .fa-linkedin-square {
+                color: aqua;
+                font-size: 24px;
+            }
+
+            * ::before {
+                box-sizing: inherit;
+            }
+
+            #contact {
+                color: cadetblue;
+                padding: 100px;
+                text-align: center;
+            }
+
+        </style>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width initial-scale=1.0" >
+        <meta name="author" content="Orina Allan">
+    </head>
+
+    <body>
+        <div id="body">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>  
+  
+            <div id="home">
+              <div id="home2">
+                  <p class="name">ALLAN ORINA</p>
+                  <p class="occup">ETHICAL HACKER </p>
+                  <hr />
+                  <p class="occup">SOFTWARE ENGINEER</p>
+              </div>
+            </div>
+  
+  
+           
+            <div id="about">
+              <img id="profilepic" src="images/me.jpg" alt="profile" width="100px" height="100px">
+              <h2 id="aboutme">About me</h2>
+              <h2 id="whoami">WHO AM I?</h2>
+  
+              <p id="description">
+                  My name is Allan Orina. Am a software developer, ethical hacker and tech enthusiast.
+                  <br />
+                  I do coding and hacking for a living and I gotta say its fun. Over time I've built various
+                  <br />
+                  projects that you can check out in the projects section. 
+                  <br />
+                  I also do tech blogging where I write Articles about various technologies and
+                  <br />
+                  how to tackle various problems in coding and hacking. Feel free to check out the 
+                  <br /> 
+                  Blog section. 
+              </p>
+            </div> 
+  
+  
+            <div id="projects">
+              <h1>Projects Coming Soon... </h1>
+            </div>
+
+            <div id="skills">
+                <p class="skills">SKILLS</p>
+                <img src="images/html5.gif" alt="HTML5"> 
+            </div>
+
+            <div id="contact">
+
+                <h3>Contact Us : </h3>
+
+                <a href="#">
+                    <span class="fa fa-twitter-square"></span>
+                </a>
+
+                <a href="">
+                    <span class="fa fa-github-square"></span>
+                </a>
+
+                <a href="">
+                    <span class="fa fa-linkedin-square"></span>
+                </a>
+
+                <br />
+                <br />
+                
+                Phone : +254743370161
+                <br />
+                <br />
+            
+                Email : orinaallan@gmail.com
+                <br />
+                <br />
+                &copy Orina Allan 2020.
+            </div>
+
+        </div>
+    </body>
+
+</html>
